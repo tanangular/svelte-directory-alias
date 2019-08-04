@@ -1,0 +1,15 @@
+$family-primary: "Sarabun";
+$primary: #d6676d !default;
+$bgColor: #0ee4ec;  
+$body-font-size: 1.2rem;
+$title-size: 2.5rem;
+$subtitle-line-height: 1.6 !default;
+$title-color: #55676d;
+
+body {
+  font-family: $family-primary;
+  background-color: $bgColor;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sarabun&display=swap');
+@import 'bulma-scss/bulma';
