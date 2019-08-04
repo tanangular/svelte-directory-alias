@@ -1,68 +1,14 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# svelte directory alias
 
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+![fullpath](https://user-images.githubusercontent.com/1311673/62422203-e274b000-b6d8-11e9-8707-698c69be4b26.png)
 
 
-## Get started
+![shortpath](https://user-images.githubusercontent.com/1311673/62422213-f3bdbc80-b6d8-11e9-843e-38da6a36c907.png)
 
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+<img width="1671" alt="Screen Shot 2562-08-04 at 16 38 33" src="https://user-images.githubusercontent.com/1311673/62422184-a8a3a980-b6d8-11e9-8cc7-86cc0a502a88.png">
 
 
-## Deploying to the web
+ทำอย่างไรเราถึงอ้างไฟล์พาธยาวๆ ให้สั้นลง และทำการแก้ไขได้ง่ายๆ หน้าตาพาธสวยงาม โค้ดดูสะอาดขึ้น โปรเจคนี้ใช้ rollup plungin ที่ชื่อ rollup-plugin-import-alias ในการจัดการกับปัญหานี้ ทิ้งท้ายด้วยการนำ bulma scss มาใช้ร่วมด้วยกับการใช้ @import ที่ทำให้ path ไฟล์สั้นลง
 
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+## Medium
+บทความฉบับเต็ม Medium: https://medium.com/@tanangular/svelte-ย่อพาธให้สั้นด้วย-directory-alias-ee28e44d6ad8
